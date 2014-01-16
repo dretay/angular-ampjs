@@ -1,0 +1,15 @@
+{
+  "name": "AngularJS AMP Client",
+  "version": "0.0.1",
+  "dependencies": {
+    "requirejs": "*",
+    "requirejs-domready": "2.0.1",
+    "ampjs": "https://github.com/Berico-Technologies/ampjs.git#0.0.23",
+    "jquery": "*",
+    "underscore-amd": "*",
+    "angular": "1.2.6",
+    "angular-mocks": "1.2.6"
+  },
+  "devDependencies":{
+  }
+}
