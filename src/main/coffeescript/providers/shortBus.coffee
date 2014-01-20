@@ -1,11 +1,12 @@
 #defined as a provider so that it can be configured prior to injection
 define [
-  'shortBusModule'
   'shortBus'
+  'ngAmpjsModule'
+
 ],
-(shortBusModule, ShortBus)->
+(ShortBus, ngAmpjsModule)->
   'use strict'
-  shortBusModule.provider 'shortBus', ->
+  ngAmpjsModule.provider 'shortBus', ->
     exchangeProviderHostname: null
     exchangeProviderPort: null
     routingInfoHostname: null

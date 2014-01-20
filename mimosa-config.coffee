@@ -37,9 +37,9 @@ exports.config =
       noShimWithDependencies: {}
     outFolder: "build"
     cleanOutFolder: true
-    globalName: "AngularWebSocket"
-    name:"angular-shortBus.min.js"
-    main:"shortBusModule"
+    globalName: "AngularAmpjs"
+    name:"ngAmpjs.min.js"
+    main:"ngAmpjs"
     mainConfigFile: "coffeescript/main.js"
     removeDependencies: [
        'angular', 'angularMocks', 'shortBus', 'domReady', 'underscore', 'stomp', 'flog', 'uuid', 'sockjs', 'jquery','LRUCache'

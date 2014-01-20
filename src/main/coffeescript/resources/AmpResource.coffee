@@ -1,18 +1,16 @@
 define [
   'angular'
-  'shortBusModule'
   'underscore'
   './AmpEntity'
   'jquery'
-  'p/shortBus'
+  'ngAmpjsModule'
   'util/_deep'
+  'p/shortBus'
+
 ],
-(angular, shortBusModule, _, AmpEntity, $) ->
+(angular, _, AmpEntity, $, ngAmpjsModule) ->
   'use strict'
-
-
-  shortBusModule.factory 'ampResource', ['$rootScope', 'shortBus', ($rootScope, shortBus)->
-
+  ngAmpjsModule.factory 'ampResource', ['$rootScope', 'shortBus', ($rootScope, shortBus)->
     class AmpResource
       queryIsArray: true
       type: "RPC"
@@ -104,5 +102,4 @@ define [
 
       create: (data)->
         new AmpEntity(data,shortBus,@)
-
-  ]
+    ]

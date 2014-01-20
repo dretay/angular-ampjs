@@ -36,7 +36,7 @@ requirejs.config
   priority: ["angular"]
 
 requirejs [
-  'shortBusModule'
+  'ngAmpjs'
 ],
-(shortBusModule) ->
-  shortBusModule
+(ngAmpjs) ->
+  null

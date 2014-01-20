@@ -10,7 +10,7 @@
     "angular": "1.2.6",
     "angular-mocks": "1.2.6"
   },
-  "main": "build/noShimNoDependencies/angular-shortBus.min.js",
+  "main": "build/noShimNoDependencies/ngAmpjs.min.js",
   "devDependencies":{
   }
 }
